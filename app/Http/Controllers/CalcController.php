@@ -29,8 +29,8 @@ class CalcController extends Controller
                         $result = '0で割ってはいけません！';
                     } else {
                         $result = $num01 / $num02;
-                        break;
                     }
+                    break;
                 default:
                     $result = '演算子はaddition、subtraction、multiplication、divisionのいずれかを入力してください。';
             }
